@@ -1,14 +1,11 @@
 {
-  "name": "search-query-parser",
+  "name": "requireless-earch-query-parser",
   "version": "0.0.3",
-  "description": "Parser for advanced search query syntax",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha -R spec"
-  },
+  "description": "Requireless Parser for advanced search query syntax",
+  "main": "./lib/search-query-parser.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/retraceio/search-query-parser"
+    "url": "git@github.com:vasil/search-query-parser.git"
   },
   "keywords": [
     "search syntax parser",
@@ -24,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/retraceio/search-query-parser/issues"
+    "url": "https://github.com/vasil/search-query-parser/issues"
   },
-  "homepage": "https://github.com/retraceio/search-query-parser",
+  "homepage": "https://github.com/vasil/search-query-parser",
   "devDependencies": {
     "should": "^3.2.0",
     "mocha": "*"

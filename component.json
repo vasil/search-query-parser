@@ -1,12 +1,12 @@
 {
-  "name": "search-query-parser",
+  "name": "requireless-search-query-parser",
   "author": {
     "name": "Julien Buty",
     "email": "julien@retraceio.net"
   },
-  "repo": "retraceio/search-query-parser",
+  "repo": "retraceio/requireless-search-query-parser",
   "description": "A simple parser for advanced search query syntax.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "keywords": [
     "search syntax parser",
     "query syntax parser",
@@ -16,11 +16,11 @@
     "search"
   ],
   "dependencies": {
-    "retraceio/search-query-parser": "*"
+    "retraceio/requireless-search-query-parser": "*"
   },
   "development": {},
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/search-query-parser.js",
   "scripts": [
     "index.js",
     "lib/search-query-parser.js"
